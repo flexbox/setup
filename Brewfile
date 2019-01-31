@@ -32,9 +32,8 @@ cask 'firefox-developer-edition'
 cask 'flux'
 cask 'github'
 cask 'google-chrome' # for react-native debugging
-cask 'google-chrome-canary' # for react-native debugging
+cask 'google-chrome-canary'
 cask 'imageoptim'
-cask 'istat-menus'
 cask 'iterm2'
 cask 'name-mangler'
 cask 'ndm'
@@ -47,8 +46,9 @@ cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'vlc'
 
-# android...
-cask 'java'
+# Use JAVA 8 which is the stablest version for Android.
+# https://stackoverflow.com/questions/53059771/could-not-determine-java-version-from-11-0-1-when-running-npm-run-android
+cask 'java8'
 brew 'gradle'
 cask 'android-file-transfer'
 cask 'android-platform-tools'
