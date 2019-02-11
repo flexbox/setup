@@ -1,5 +1,5 @@
 # Make a directory and change into it in one command
-mkcd () {
+md () {
   mkdir -p "$@" && cd "$@"
 }
 
