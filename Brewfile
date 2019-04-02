@@ -6,6 +6,7 @@ tap 'homebrew/services'
 tap 'caskroom/cask'
 
 brew 'archey'
+brew 'ffmpeg'
 brew 'fzf'
 brew 'ghi'
 brew 'git'
