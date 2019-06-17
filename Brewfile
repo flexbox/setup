@@ -37,6 +37,7 @@ cask 'google-chrome' # for react-native debugging
 cask 'google-chrome-canary'
 cask 'imageoptim'
 cask 'iterm2'
+cask 'insomnia'
 cask 'name-mangler'
 cask 'ndm'
 cask 'recordit'
