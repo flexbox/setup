@@ -46,6 +46,7 @@ cask 'sublime-text'
 cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'zoomus'
 
 # Use JAVA 8 which is the stablest version for Android.
 # https://stackoverflow.com/questions/53059771/could-not-determine-java-version-from-11-0-1-when-running-npm-run-android
