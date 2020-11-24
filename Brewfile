@@ -7,6 +7,7 @@ tap 'caskroom/cask'
 
 brew 'archey'
 brew 'ffmpeg'
+brew 'fastlane'
 brew 'fzf'
 brew 'ghi'
 brew 'gh'
