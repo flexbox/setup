@@ -15,6 +15,8 @@ Follow the [macOS setup guide from lewagon](https://github.com/lewagon/setup/blo
 
 ## Install applications from the internet
 
+Automatically install applications from `Brewfile`
+
 ```console
 brew bundle
 ```
@@ -25,7 +27,7 @@ brew bundle
 bash ./.macos
 ```
 
-## `.zshrc`
+Update `.zshrc`
 
 ```console
 # You can change the theme with another one:
