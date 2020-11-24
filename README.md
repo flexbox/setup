@@ -1,16 +1,17 @@
-# flexbox `setup`
+# flexbox setup
 
-## First run
+> An automated install for new macs
+
+## Install Xcode
 
 ```console
 xcode-select --install
 ```
+☝ run this one 2 times
 
 ## Ruby and GitHub setup
 
-```console
-https://github.com/lewagon/setup/blob/master/macOS.md
-```
+Follow the [macOS setup guide from lewagon](https://github.com/lewagon/setup/blob/master/macOS.md)
 
 ## Install applications from the internet
 
