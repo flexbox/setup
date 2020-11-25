@@ -29,8 +29,11 @@ Check the result with `echo $ANDROID_HOME`
 
 - [ ] bash ./.macos
 - [ ] Update `.zshrc`
+- [ ] `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
 ```console
+# ~/.zshrc
+
 # You can change the theme with another one:
 #   https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="refined"

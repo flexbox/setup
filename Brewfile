@@ -44,6 +44,7 @@ cask 'spotify'
 cask 'sublime-text'
 cask 'tunnelbear'
 cask 'visual-studio-code'
+cask 'visual-studio-insiders'
 cask 'vlc'
 cask 'zoomus'
 

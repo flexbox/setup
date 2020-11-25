@@ -269,7 +269,7 @@ defaults write com.apple.terminal SecureKeyboardEntry -bool true
 defaults write com.apple.Terminal ShowLineMarks -int 0
 
 # Install the Solarized Darcula theme for iTerm
-open "./terminal/Solarized Darcula.itermcolors"
+open "./terminal/Snazzy.itermcolors"
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
