@@ -3,7 +3,6 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/services'
-tap 'caskroom/cask'
 
 brew 'archey'
 brew 'ffmpeg'
@@ -21,7 +20,7 @@ brew 'python'
 brew 'tig'
 brew 'tree'
 brew 'watchman'
-brew 'yarn', args: ['without-node']
+brew 'yarn'
 brew 'youtube-dl'
 brew 'z'
 
@@ -48,9 +47,16 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'zoomus'
 
+
+# Android React Native Development
 # Use JAVA 8 which is the stablest version for Android.
 # https://stackoverflow.com/questions/53059771/could-not-determine-java-version-from-11-0-1-when-running-npm-run-android
-cask 'java8'
+
+cask 'adoptopenjdk8'
+# https://github.com/AdoptOpenJDK/homebrew-openjdk/issues/106
+# until the fix you can run
+# brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+
 brew 'gradle'
 cask 'android-file-transfer'
 cask 'android-platform-tools'

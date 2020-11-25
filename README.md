@@ -14,9 +14,16 @@
 
 ## Install applications from the internet
 
+Apple M1 Chip needs to add this alias
+```
+alias ibrew='arch -x86_64 /usr/local/bin/brew'
+```
+
 Automatically install applications from `Brewfile`
 
-- [ ] `brew bundle`
+- [ ] `ibrew bundle`
+
+Check the result with `echo $ANDROID_HOME`
 
 ## macOS defaults for hackers
 
