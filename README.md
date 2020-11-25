@@ -29,7 +29,6 @@ Check the result with `echo $ANDROID_HOME`
 
 ## macOS defaults for hackers
 
-
 Update `.zshrc`
 
 ```console
@@ -51,3 +50,8 @@ plugins=(git gitfast common-aliases sublime zsh-syntax-highlighting history-subs
 bash ./.macos
 ```
 
+## Migrate divyy
+
+```console
+cp ./divvy/com.mizage.Divvy.plist ~/Library/Preferences/
+```
