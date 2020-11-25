@@ -4,30 +4,24 @@
 
 ## Install Xcode
 
-```console
-xcode-select --install
-```
-☝ run this one 2 times
+- [ ] Open App Store and Download Xcode
+- [ ] `xcode-select --install`
+- [ ] `sudo xcodebuild -license`
 
 ## Ruby and GitHub setup
 
-Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/blob/master/macOS.md)**
+- [ ] Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/blob/master/macOS.md)**
 
 ## Install applications from the internet
 
 Automatically install applications from `Brewfile`
 
-```console
-brew bundle
-```
+- [ ] `brew bundle`
 
 ## macOS defaults for hackers
 
-```console
-bash ./.macos
-```
-
-Update `.zshrc`
+- [ ] bash ./.macos
+- [ ] Update `.zshrc`
 
 ```console
 # You can change the theme with another one:
