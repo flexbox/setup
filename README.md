@@ -14,11 +14,6 @@ Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/b
 
 ## Install applications from the internet
 
-Apple M1 Chip needs to add this alias
-```
-alias ibrew='arch -x86_64 /usr/local/bin/brew'
-```
-
 Automatically install applications from `Brewfile`
 
 ```console
