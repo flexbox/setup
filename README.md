@@ -17,7 +17,7 @@ Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/b
 Automatically install applications from `Brewfile`
 
 ```console
-ibrew bundle
+brew bundle
 ```
 
 Check the result with `echo $ANDROID_HOME`
