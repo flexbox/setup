@@ -5,6 +5,7 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 
 brew 'archey'
+brew 'bat'
 brew 'ffmpeg'
 brew 'fastlane'
 brew 'fzf'
