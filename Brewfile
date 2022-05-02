@@ -50,14 +50,12 @@ cask 'vlc'
 cask 'zoomus'
 
 
-# Android React Native Development
-# Use JAVA 8 which is the stablest version for Android.
-# https://stackoverflow.com/questions/53059771/could-not-determine-java-version-from-11-0-1-when-running-npm-run-android
+# React Native Development Setup for Android
 
-cask 'adoptopenjdk8'
-# https://github.com/AdoptOpenJDK/homebrew-openjdk/issues/106
-# until the fix you can run
-# brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+# The Zulu OpenJDK distribution offers JDKs for both Intel and M1 Macs.
+# This will make sure your build are faster on M1 Macs compared to using an Intel-based JDK.
+# https://reactnative.dev/docs/environment-setup#installing-dependencies
+cask 'zulu11'
 
 brew 'gradle'
 cask 'android-file-transfer'
