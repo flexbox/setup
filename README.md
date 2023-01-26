@@ -14,6 +14,12 @@ Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/b
 
 ## Install applications from the internet
 
+Clone the repo on your machine
+
+```
+gh repo clone flexbox/setup
+```
+
 Automatically install applications from `Brewfile`
 
 ```console
