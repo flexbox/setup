@@ -44,9 +44,3 @@ plugins=(git gitfast common-aliases sublime zsh-syntax-highlighting history-subs
 ```console
 bash ./.macos
 ```
-
-## Migrate divyy
-
-```console
-cp ./divvy/com.mizage.Divvy.plist ~/Library/Preferences/
-```
