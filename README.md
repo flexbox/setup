@@ -10,7 +10,7 @@
 
 ## Ruby and GitHub setup
 
-Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/blob/master/macOS.md)**
+Follow the **[macOS setup guide from lewagon](https://github.com/lewagon/setup/blob/master/macos.md)**
 
 ## Install applications from the internet
 
