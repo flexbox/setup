@@ -7,6 +7,7 @@ tap 'homebrew/services'
 
 brew 'archey'
 brew 'bat'
+brew 'expo-orbit'
 brew 'fastlane'
 brew 'ffmpeg'
 brew 'fzf'
