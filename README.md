@@ -26,7 +26,7 @@ Automatically install applications from `Brewfile`
 brew bundle
 ```
 
-Check the result with `echo $ANDROID_HOME`
+<!-- Check the result with `echo $ANDROID_HOME` -->
 
 ## macOS defaults for hackers
 
