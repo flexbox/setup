@@ -46,6 +46,7 @@ brew 'watchman'
 
 # cask 'alfred'
 cask 'arc'
+cask 'around'
 cask 'brave-browser'
 cask 'discord'
 cask 'dropbox'
