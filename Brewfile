@@ -1,22 +1,12 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
-
-# Make sure we’re using the latest Homebrew.
-brew update
-
-# Upgrade any already-installed formulae.
-brew upgrade
-
-
-
 tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/services'
 
-brew 'archey'
+brew 'archey4'
 brew 'bat'
 brew 'ffmpeg'
 brew 'fzf'
@@ -29,11 +19,8 @@ brew 'imageoptim-cli'
 brew 'nvm'
 brew 'python'
 brew 'tree'
-# brew 'yarn'
 brew 'youtube-dl'
 brew 'z'
-
-
 
 # React Native Development Setup
 
@@ -47,6 +34,7 @@ brew 'watchman'
 
 # cask 'alfred'
 cask 'arc'
+cask '1password'
 cask 'around'
 cask 'brave-browser'
 cask 'discord'
@@ -72,9 +60,9 @@ cask 'stremio'
 cask 'spotify'
 cask 'sublime-text'
 cask 'visual-studio-code'
-cask 'visual-studio-insiders'
+cask 'visual-studio-code-insiders'
 cask 'vlc'
-cask 'zoomus'
+cask 'zoom'
 
 
 # React Native Development Setup for Android
@@ -91,5 +79,3 @@ cask 'zoomus'
 # cask 'android-studio'
 
 
-# Remove outdated versions from the cellar.
-brew cleanup
