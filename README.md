@@ -26,15 +26,9 @@ Automatically install applications from `Brewfile`
 brew bundle
 ```
 
-<!-- Check the result with `echo $ANDROID_HOME` -->
-
 ## macOS defaults for hackers
 
 Update `.zshrc`
-
-```console
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-```
 
 ```console
 # ~/.zshrc
