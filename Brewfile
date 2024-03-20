@@ -23,15 +23,16 @@ brew 'youtube-dl'
 brew 'z'
 
 # React Native Development Setup
-
 tap 'facebook/fb'
 brew 'idb-companion' # automating iOS simulators and devices
 
+brew 'ios-deploy'
 brew 'expo-orbit'
 brew 'fastlane'
 brew 'mas' # Mac App Store command line interface
 brew 'watchman'
 
+# Other Stuff
 # cask 'alfred'
 cask 'arc'
 cask '1password'
