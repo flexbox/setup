@@ -25,12 +25,12 @@ brew 'z'
 # React Native Development Setup
 tap 'facebook/fb'
 brew 'idb-companion' # automating iOS simulators and devices
-
 brew 'ios-deploy'
 brew 'expo-orbit'
 brew 'fastlane'
 brew 'mas' # Mac App Store command line interface
 brew 'watchman'
+brew 'temurin' # Android Java SDK that just works
 
 # Other Stuff
 # cask 'alfred'
