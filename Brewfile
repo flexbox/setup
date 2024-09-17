@@ -31,6 +31,8 @@ brew 'fastlane'
 brew 'mas' # Mac App Store command line interface
 brew 'watchman'
 brew 'temurin' # Android Java SDK that just works
+tap 'mobile-dev-inc/tap' # e2e test with maestro
+brew 'maestro'
 
 # Other Stuff
 # cask 'alfred'
